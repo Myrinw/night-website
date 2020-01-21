@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html, body{
+    height: 100%;;
+}
+li, a, button{
+    font-family: "montserrat", sans-serif;
+    font-size: 2rem;
+    color:white;
+    text-decoration: none;
+   
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 3rem 1rem;
+}
+
+.logo{
+    height:4rem;
+    width:auto;
+}
+
+.navbar__links{
+list-style: none;
+}
+
+.navbar__links li{
+    display: inline-block;
+    margin: 0 1rem;
+    padding-top:1rem;
+}
+.navbar__links li a:hover{
+    color:lightblue;
+}
+
+a button{
+    background-color: lightgreen;
+    border-radius: 50px;
+    border:none;
+    padding: 1rem 1rem;
+    outline:none;
+}
+button:hover{
+    background-color: darkgreen;
+}
+
+
+.hero{
+  position: relative;
+  height:90rem;
+  overflow: hidden;
+  background: url(night.jpg) no-repeat center;
+  background-size: cover;
+
+}
+.hero__content{
+    position: absolute;
+    top:25%;
+    left:25%;
+    right: 25%;
+}
+.hero__content--text{
+    font-size:7rem;
+    color:white;
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+}
